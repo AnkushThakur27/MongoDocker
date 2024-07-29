@@ -15,8 +15,8 @@ services:
       - 27017:27017
     environment:
       - MONGO_INITDB_DATABASE=test
-      - MONGO_INITDB_ROOT_USERNAME=
-      - MONGO_INITDB_ROOT_PASSWORD=
+      - MONGO_INITDB_ROOT_USERNAME=ridham
+      - MONGO_INITDB_ROOT_PASSWORD=ridham123
     volumes:
       # seeding scripts
       - ./mongo-entrypoint:/docker-entrypoint-initdb.d
